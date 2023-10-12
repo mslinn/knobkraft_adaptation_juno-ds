@@ -30,7 +30,7 @@ The JUNO-DS Librarian can read `jxl` format files, but cannot convert them to an
 
 ## Roland Tone Manager
 
-> JUNO-DS Tone Manager is an application that lets you use your computer to manage JUNO-DS patches, drum kits, performances, and samples
+> [JUNO-DS Tone Manager](https://www.roland.com/global/support/by_product/juno-ds61/owners_manuals/8de9a4d7-443b-4e18-b8f1-004200b366f2/) is an application that lets you use your computer to manage JUNO-DS patches, drum kits, performances, and samples
 in a library, and to edit their parameters. Using your computer, you’ll be able to efficiently manage and edit large numbers of tones.
 
 The JUNO-DS Tone Manager manual is provided [here](roland_juno-ds_tone_manager.pdf) in PDF format.
