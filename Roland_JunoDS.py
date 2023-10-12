@@ -4,7 +4,7 @@
 #   Dual licensed: Distributed under Affero GPL license by default, an MIT license is available for purchase
 #
 
-# See See https://github.com/christofmuc/KnobKraft-orm/discussions/274
+# See https://github.com/christofmuc/KnobKraft-orm/discussions/274
 
 import sys
 from typing import List
