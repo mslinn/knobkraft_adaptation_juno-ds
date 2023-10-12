@@ -34,3 +34,5 @@ The JUNO-DS Librarian can read `jxl` format files, but cannot convert them to an
 in a library, and to edit their parameters. Using your computer, you’ll be able to efficiently manage and edit large numbers of tones.
 
 The JUNO-DS Tone Manager manual is provided [here](roland_juno-ds_tone_manager.pdf) in PDF format.
+
+So far the program only generates errors for me, I cannot get it to do anything useful.
