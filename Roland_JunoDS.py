@@ -5,6 +5,7 @@
 #
 
 # Finally owning a classic Roland so I can make a working and tested example on how to implement the Roland Synths
+
 import sys
 from typing import List
 
@@ -25,6 +26,13 @@ _juno_ds_patch_data = [DataBlock((0x00, 0x00, 0x00, 0x00), 0x50, "Patch common")
 _juno_ds_edit_buffer_addresses = RolandData("Juno-DS Temporary Patch/Drum (patch mode part 1)", 1, 4, 4,
                                            (0x1f, 0x00, 0x00, 0x00),
                                            _juno_ds_patch_data)
+
+'''There is an address calculation problem with the Juno-DS having 256 patches.
+Temporarily limit the number of patches to 128 in line 29.
+256 is correct, but it seems the address calculation does not handle the address overflow correctly.
+We calculate invalid sysex messages which cause the download to stall.
+
+See https://github.com/christofmuc/KnobKraft-orm/discussions/274#discussioncomment-7263645 '''
 _juno_ds_program_buffer_addresses = RolandData("Juno-DS User Patches", 128, 4, 4,
                                               (0x30, 0x00, 0x00, 0x00),
                                               _juno_ds_patch_data)
