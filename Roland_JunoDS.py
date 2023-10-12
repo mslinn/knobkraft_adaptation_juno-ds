@@ -25,7 +25,7 @@ _juno_ds_patch_data = [DataBlock((0x00, 0x00, 0x00, 0x00), 0x50, "Patch common")
 _juno_ds_edit_buffer_addresses = RolandData("Juno-DS Temporary Patch/Drum (patch mode part 1)", 1, 4, 4,
                                            (0x1f, 0x00, 0x00, 0x00),
                                            _juno_ds_patch_data)
-_juno_ds_program_buffer_addresses = RolandData("Juno-DS User Patches", 256, 4, 4,
+_juno_ds_program_buffer_addresses = RolandData("Juno-DS User Patches", 128, 4, 4,
                                               (0x30, 0x00, 0x00, 0x00),
                                               _juno_ds_patch_data)
 

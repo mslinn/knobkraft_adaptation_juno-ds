@@ -12,3 +12,8 @@ See:
 - https://github.com/christofmuc/KnobKraft-orm/blob/master/adaptations/Adaptation%20Programming%20Guide.md
 - https://github.com/christofmuc/KnobKraft-orm/blob/master/adaptations/Adaptation%20Testing%20Guide.md
 - https://github.com/christofmuc/KnobKraft-orm/discussions/274
+
+
+## Testing
+
+The program must be restarted after each change to this Python program.
