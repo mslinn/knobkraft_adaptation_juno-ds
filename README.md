@@ -17,3 +17,16 @@ See:
 ## Testing
 
 The program must be restarted after each change to this Python program.
+
+
+## Axial Patch Libraries
+
+[Axial / Roland Synthesizer Patch Libraries](https://axial.roland.com/category/juno-ds61_juno-ds76_juno-ds88_xps-30/)
+
+
+## Roland Tone Manager
+
+> JUNO-DS Tone Manager is an application that lets you use your computer to manage JUNO-DS patches, drum kits, performances, and samples
+in a library, and to edit their parameters. Using your computer, you’ll be able to efficiently manage and edit large numbers of tones.
+
+The JUNO-DS Tone Manager manual is provided [here](roland_juno-ds_tone_manager.pdf) in PDF format.
