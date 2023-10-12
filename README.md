@@ -21,7 +21,11 @@ The program must be restarted after each change to this Python program.
 
 ## Axial Patch Libraries
 
-[Axial / Roland Synthesizer Patch Libraries](https://axial.roland.com/category/juno-ds61_juno-ds76_juno-ds88_xps-30/)
+[Axial / Roland Synthesizer Patch Libraries](https://axial.roland.com/category/juno-ds61_juno-ds76_juno-ds88_xps-30/) provides free `jxl` format patch libraries.
+
+[JUNO-DS_XV_Patch_Collection_Bank_A.jxl](JUNO-DS_XV_Patch_Collection_Bank_A.jxl) is enclosed.
+
+The JUNO-DS Librarian can read `jxl` format files, but cannot convert them to any other format.
 
 
 ## Roland Tone Manager
