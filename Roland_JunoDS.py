@@ -4,7 +4,6 @@
 #   Dual licensed: Distributed under Affero GPL license by default, an MIT license is available for purchase
 #
 
-# Finally owning a classic Roland so I can make a working and tested example on how to implement the Roland Synths
 import hashlib
 import sys
 from typing import List, Union, Tuple, Optional, Dict
